@@ -1,0 +1,39 @@
+Sabeleye
+Dark/Ghost
+50/75/75/65/65/50 380 BST
+
+
+Team Ice Age used dynamite to blow tunnel systems into Lonely Mountain. It forced
+cave dwelling Sabeleye out. Sabeleye were forced to scavenge for Emerald gemstones
+before leaving their caves to survive the elements. Yetieye is an evolution
+of Ice-Sabeleye that mastered the emerald's magical abilities. 
+
+
+Yetieye
+Ice/dark
+75/70/80/100/120/55 495 BST
+Magician/Natural Cure
+
+static const u16 sYetieyeLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_LEER),
+    LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
+    LEVEL_UP_MOVE( 5, MOVE_FORESIGHT),
+    LEVEL_UP_MOVE( 8, MOVE_POWDER_SNOW),
+    LEVEL_UP_MOVE( 14, MOVE_MAGICAL_LEAF),
+    LEVEL_UP_MOVE(17, MOVE_BITE),
+    LEVEL_UP_MOVE(21, MOVE_FAKE_OUT),
+    LEVEL_UP_MOVE(23, MOVE_AURORA_BEAM),
+    LEVEL_UP_MOVE(25, MOVE_CALM_MIND),
+    LEVEL_UP_MOVE(29, MOVE_FAINT_ATTACK),
+    LEVEL_UP_MOVE(33, MOVE_KNOCK_OFF),
+    LEVEL_UP_MOVE(35, MOVE_ICE_BEAM),
+    LEVEL_UP_MOVE(37, MOVE_CONFUSE_RAY),
+    LEVEL_UP_MOVE(41, MOVE_SHADOW_BALL),
+    LEVEL_UP_MOVE(49, MOVE_FIRE_BLAST),
+    LEVEL_UP_MOVE(57, MOVE_THUNDER_BOLT),
+    LEVEL_UP_MOVE(65, MOVE_BLIZZARD),
+
+    LEVEL_UP_END
+};
+
+

@@ -1,0 +1,31 @@
+Arcanine
+Fire
+90/110/80/100/80/95
+Intimidate/flash fire/justified\
+
+Packs of growlithe and arcanine were forced north to the Lonely Peaks. The interal
+temperature dropped to lethal levels and only the strongest willed survived. The 
+ice-growlithe line was forged from ice and blizzards. They mastered the power of special
+ice moves to dominate their environment.
+
+Ice-Arcanine
+Ice
+90/90/85/115/90/85
+Intimidate/Flash fire/Hibernation
+
+Hibernation: Every turn this pokemon ends the turn asleep, gains 25% hp.
+
+ice-growlithe learnset:
+- Bite
+- Roar
+7 - powder snow
+13 - leer
+19 - odor sleuth
+21 -  aurora beam
+27 - take downn
+35 - ice beam
+37 - crunch
+49 - extreme speed
+
+
+

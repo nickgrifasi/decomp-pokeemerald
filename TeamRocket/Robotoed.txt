@@ -1,0 +1,32 @@
+Politoed
+Water
+90/75/75/90/100/70 500 BST
+Water absorb/damp/drizzle
+
+
+Team Control has taken over the local marsh. Politoed have been captured and augmented
+with an extremely powerful ball of energy. It has grown stronger, bulkier, and changed its
+inate abilities from water bending to electricity.
+
+Robotoed
+Electric/Steel
+90/80/95/120/80/90 555 BST
+Mold breaker/No Guard
+
+static const u16 sRobotoedLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 1, MOVE_THUNDER_SHOCK),
+    LEVEL_UP_MOVE( 1, MOVE_METAL_SOUND),
+    LEVEL_UP_MOVE( 6, MOVE_THUNDER_SHOCK),
+    LEVEL_UP_MOVE( 9, MOVE_METAL_CLAW),
+    LEVEL_UP_MOVE(11, MOVE_SONIC_BOOM),
+    LEVEL_UP_MOVE(16, MOVE_BUBBLE_BEAM),
+    LEVEL_UP_MOVE(21, MOVE_THUNDER_WAVE),
+    LEVEL_UP_MOVE(21, MOVE_SPARK),
+    LEVEL_UP_MOVE(31, MOVE_THUNDER_BOLT),
+    LEVEL_UP_MOVE(35, MOVE_EXTRASENSORY),
+    LEVEL_UP_MOVE(55, MOVE_THUNDER),
+    LEVEL_UP_MOVE(59, MOVE_HYDRO_PUMP),
+    LEVEL_UP_MOVE(60, MOVE_ZAP_CANNON),
+    LEVEL_UP_END
+};

@@ -1,0 +1,72 @@
+Grass/Dragon 
+
+001: Wyfern 45/45/45/65/40/75 315
+
+002: Wypine 60/60/55/85/55/100 420
+
+003: Wyvergreen 85/80/80/115/70/130 550
+
+Abilities: Overgrowth/Regenerator
+
+
+
+Signature move— Pinestorm blast: Grass Special 130BP 100% accuracy, Lowers users special attack by 1.
+
+
+static const u16 sWyfernLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
+    LEVEL_UP_MOVE( 1, MOVE_LEER),
+    LEVEL_UP_MOVE( 6, MOVE_VINE_WHIP),
+    LEVEL_UP_MOVE( 8, MOVE_PIN_MISSILE),
+    LEVEL_UP_MOVE( 10, MOVE_POISON_STING),
+    LEVEL_UP_MOVE( 13, MOVE_STUN_SPORE),
+    LEVEL_UP_MOVE(15, MOVE_TWISTER),
+    LEVEL_UP_MOVE(18, MOVE_NEEDLEE_ARM),
+    LEVEL_UP_MOVE(23, MOVE_DRAGON_BREATH),
+    LEVEL_UP_MOVE(29, MOVE_LEAF_BLADE),
+    LEVEL_UP_MOVE(36, MOVE_DRAGON_CLAW),
+    LEVEL_UP_MOVE(39, MOVE_SLUDGE_BOMB),
+    LEVEL_UP_MOVE(40, MOVE_LEECH_SEED),
+    LEVEL_UP_MOVE(42, MOVE_SPIKES),
+    LEVEL_UP_MOVE(43, MOVE_SYNTHESIS),
+    LEVEL_UP_MOVE(50, MOVE_OUTRAGE),
+    LEVEL_UP_MOVE(57, MOVE_PINESTORM_BLAST),
+    LEVEL_UP_END
+};
+
+
+
+
+
+
+Water/Dragon
+
+004: Leviagup 60/65/60/30/60/40 315
+
+005:  Levialoch 80/90/80/45/80/45 420
+
+006: Leviathulu  112/125/98/60/95/65 550
+
+Abilities: Torrent/Rough Skin
+
+
+
+Signature move— Tidal Force: Water Physical 100BP 90% accuracy, 20% to raise attack and defense by 1 stage.
+
+
+
+
+
+Fire/Dragon
+
+007: Pyramaw 50/45/45/70/55/50 315
+
+008: Arsomaug 65/50/60/95/75/75 420
+
+009: Phlogismaug 90/65/70/130/95/100 550
+
+Abilities: Blaze/Infiltrator
+
+
+
+Signature move— Pyroclastic flow: Fire Special 80BP 100% accuracy, raises in BP by 30 if used consecutively. Caps at 200BP
